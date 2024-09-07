@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    border: 5px solid black;
+    width: 400px;
+    margin: 100px auto;
+    padding: 10px;
+}
+div>h1 , div>p{
+    text-align: center;
+    color: red;
+}
+
+/* write media query for different widths */
+
+
+
+/* @media screen and (max-width:1200px) {
+    div>h1 , div>p{
+        color: green;
+        font-family: cursive ;
+    }
+    
+}
+
+@media screen and (max-width:992px) {
+    div>h1 , div>p{
+        color: pink;
+        font-family: monospace ;
+    }
+    
+} */
+
+
+/* @media screen and (min-width:992px) {
+    div>h1 , div>p{
+        color: pink;
+        font-family: monospace ;
+    }
+    
+}
+
+@media screen and (min-width:1200px) {
+    div>h1 , div>p{
+        color: green;
+        font-family: cursive ;
+    }
+    
+} */
+
+
+
+
+
+/* write media query for orientations */
+
+/* @media screen and (orientation:portrait) {
+    div>h1 , div>p{
+        font-size: 50px;
+        font-family: cursive;
+    }
+    
+} */
+
+@media screen and (orientation:landscape) , (max-width:700px) {
+    div>h1 , div>p{
+        background-color: yellow;
+        font-size: 10px;
+        font-family: sans-serif;
+    }
+    
+}

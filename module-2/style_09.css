@@ -1,0 +1,68 @@
+/* font properties */
+/* font-size */
+/* p{
+    font-size: 40px;
+} */
+
+/* font-family */
+/* p{
+    font-family: monospace;
+} */
+
+/* font-weight */
+/* p{
+    font-weight: 600;
+} */
+
+
+/* line-height */
+/* p{
+    line-height: 2rem;
+} */
+
+
+/* letter-spacing */
+/* p{
+    letter-spacing: 0.5rem;
+} */
+
+
+/* -------------------------------- */
+/* list properties */
+/* li{
+    border: 1px solid green;
+} */
+/* list-style-position */
+/* li{
+    list-style-position: inside;
+    list-style-position: outside;
+} */
+
+
+
+/* list-style-type */
+/* li{
+    list-style-type: square;
+} */
+
+/* -------------------------------- */
+/* border properties */
+/* border-type */
+h1{
+    /* border: 2px solid black; */
+    border-color: black;
+    border-width: 2px;
+    border-style: dashed;
+}
+
+/* border-width */
+
+
+/* border-style */
+
+
+/* border-radius */
+h1{
+    border-radius: 5px;
+}
+

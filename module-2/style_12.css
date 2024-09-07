@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+
+.child{
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    transition-duration: 3s;
+}
+
+
+/* transition timing function */
+.parent:hover .child{
+    width: 100%;
+}
+.child-1{
+    transition-timing-function: linear;
+}
+.child-2{
+    transition-timing-function: ease-in;
+}
+.child-3{
+    transition-timing-function: ease-out;
+}
+.child-4{
+    transition-timing-function: ease-in-out;
+}

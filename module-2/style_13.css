@@ -1,0 +1,29 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: thistle;
+    transition-duration: 2s;
+    margin: 40px auto;
+}
+
+.transform:hover{
+    /* translate */
+    /* transform: translateX(100px); */
+    /* transform: translateY(100px); */
+    /* transform: translate(100px , 100px); */
+
+    /* rotate */
+    /* transform: rotateX(80deg); */
+    /* transform: rotateY(90deg); */
+
+    
+    /* scale */
+    /* transform: scaleX(1.5); */
+    /* transform: scaleY(1.2); */
+    /* transform: scale(1.5 , 1.2); */
+
+
+    /* skew */
+    /* transform: skewX(30deg); */
+    transform: skewY(30deg);
+}

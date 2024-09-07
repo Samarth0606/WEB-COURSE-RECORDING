@@ -1,0 +1,16 @@
+.box{
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    margin: 40px auto;
+    background-color: green;
+}
+
+.box:hover{
+    border-radius: 50%;
+    background-color: chocolate;
+}
+
+/* transition duration */
+/* transition property */
+/* transition delay */

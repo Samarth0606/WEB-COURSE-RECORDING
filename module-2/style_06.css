@@ -1,0 +1,39 @@
+
+/* absolute unit */
+/* px */
+h1{
+    font-size: 100px;
+}
+
+
+/* --------------------------- */
+/* relative units */
+/* % */
+/* section{
+    width: 100px;
+}
+div{
+    width: 100%;
+    background-color: aquamarine;
+} */
+
+/* rem -> root */
+
+/* p{
+    font-size: 2rem;
+} */
+
+/* em */
+/* ul > li{ */
+    /* font-size: 2rem; */
+    /* font-size: 2em; */
+    /* snowball effect */
+/* } */
+
+
+/* vw & vh */
+section{
+    height: 50vh;
+    width: 50vw;
+    background-color: brown;
+}

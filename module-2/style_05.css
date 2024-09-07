@@ -1,0 +1,15 @@
+/* rgb on h1 */
+h1{
+    color: rgb(241, 204, 169);
+}
+
+/* rgba on p */
+p{
+    /* color: rgba(0, 255, 0, 1); */
+    color: rgba(0, 255, 0, 0.1);
+}
+
+/* hexadecimal on div */
+div{
+    background-color: #ff00aa;
+}

@@ -1,0 +1,9 @@
+/* give styling to li under ul */
+
+ul>li{
+    color: cyan;
+    border: 2px solid black;
+    
+}
+
+

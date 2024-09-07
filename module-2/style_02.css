@@ -1,0 +1,34 @@
+/* BASIC SELECTORS */
+/* element selector */
+h1{
+    color: red;
+    font-size: 100px;
+}
+
+/* ID selector */
+#vohra{
+    font-size: 200px;
+    color: darkseagreen;
+}
+
+
+/* Class selector */
+.samarth{
+    background-color: blue;
+}
+
+
+/* Attribute selector */
+input[type="password"]{
+    background-color: aqua;
+}
+
+a[href="http://codingblocks.com"]{
+    color: brown;
+}
+
+
+/* Universal selector */
+*{
+    border: 2px solid black ;
+}

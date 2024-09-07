@@ -1,0 +1,85 @@
+/* combintors */
+/* descendant selector */
+
+/* h1 span{
+    color: green;
+} */
+/* section div h1 span{} */
+/* section h1 span{} */
+
+/* child selector*/
+/* section > div > h1 > span{} */
+/* div > h1 > span{} */
+/* h1>span{
+    font-size: 100px;
+    background-color: orange;
+} */
+
+/* adjacent sibling */
+/* article + div{
+    color: purple;
+    border: 2px solid black;
+} */
+
+/* general sibling */
+/* article ~ div{
+    background-color: cyan;
+} */
+
+/* -------------------------------------------------- */
+/* pseudo classes */
+/* :hover */
+/* div{
+    background-color: aqua;
+}
+div:hover{
+    background-color: red;
+} */
+
+/* :focus */
+/* input{
+    background-color: green;
+}
+
+input:focus{
+    background-color: coral;
+} */
+
+/* :active */
+/* a{
+    font-size: 50px;
+}
+a:active{
+    font-size: 200px;
+    border: 5px dotted purple;
+} */
+
+
+/* :visited */
+/* a:visited{
+    color: orange;
+} */
+
+/* -------------------------------------------------- */
+/* pseudo elements */
+
+/* ::first-letter */
+/* p::first-letter{
+    font-size: 100px;
+    color: orange;
+} */
+
+/* ::first-line */
+/* p::first-line{
+    font-family: cursive;
+} */
+
+/* before */
+/* p::before{
+    content: "hi i am samarth";
+} */
+
+/* after */
+p::after{
+    content: "hi i am samarth 2";
+}
